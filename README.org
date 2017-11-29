@@ -1,0 +1,110 @@
+#+TITLE: Lecturas de teorías de categorías y programación funcional
+#+OPTIONS:   toc:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./estilo.css" />
+
+Recopilación de lecturas compartidas sobre teoría de categorías y programación
+funcional. Además de los trabajos que relacionan ambos campos he añadido
+algunos de introducción a la teoría de categorías.
+
+* Libros
++ [[http://repository.cmu.edu/cgi/viewcontent.cgi?article=2846&context=compsci][A taste of category theory for computer scientists]]. ~ Benjamin Pierce 
++ [[https://arxiv.org/pdf/1612.09375][Basic category theory]]. ~ Tom Leinster
++ [[https://blog.scalents.com/2017/09/22/basic-category-theory-for-scala-programmers-part-i/][Basic category theory for (Scala) programmers (part I)]]. ~ Gabriel Claramunt
++ [[https://github.com/jwbuurlage/category-theory-programmers/raw/master/doc/categories_for_programmers.pdf][Categories and Haskell (An introduction to the mathematics behind modern
+  functional programming)]]. ~ Jan-Willem Buurlage 
++ [[http://www.di.ens.fr/users/longo/files/CategTypesStructures/book.pdf][Categories, types and structures: category theory for the working computer
+  scientist]]. ~ Andrea Asperti and Giuseppe Longo.
++ [[http://www.andrew.cmu.edu/course/80-413-713/notes/][Category theory]]. ~ Steve Awodey
++ [[http://bit.ly/1KPL2qD][Category theory (A gentle introduction)]]. ~ P. Smith  
++ [[https://github.com/jpvillaisaza/cain/raw/master/docs/cain.pdf][Category theory applied to functional programming]]. ~ J.P. Villa
++ [[http://pages.cpsc.ucalgary.ca/~robin/class/617/notes.pdf][Category theory for computer science]]. ~ Robin Cockett
++ [[http://bit.ly/1E3fqpN][Category theory for computing science]]. ~ M. Barr & C. Wells
++ [[https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v0.3/category-theory-for-programmers.pdf][Category theory for programmers]]. ~ Bartosz Milewski 
++ [[http://goo.gl/t9vmB][Category theory for scientists]]. ~ David I. Spivak 
++ [[http://ow.ly/eh9M6][Category theory lecture notes]] ~ Daniele Turi
++ [[http://bit.ly/nwCGnt][Computational category theory]]. ~ D.E. Rydeheard & R.M. Burstall
++ [[http://bit.ly/1jQdkBb][Categories and all that: A tutorial]]. ~ Ernst-Erich Doberkat
++ [[http://blog.ploeh.dk/2017/10/04/from-design-patterns-to-category-theory/][From design patterns to category theory]]. ~ Mark Seemann 
++ [[http://www.buffalo.edu/~wlawvere/concep-3.pdf][Matemáticas conceptuales: Una primera introducción a categorı́as]]. ~ W. Lawvere
+  & S. Schanuel 
++ [[http://bit.ly/1RrtWir][The Haskell programmer’s guide to the IO monad]]. ~ S. Klinger
+
+* Artículos
++ [[http://bit.ly/1JWsu7r][Abstraction in Haskell (Monoids, functors, monads)]]. ~ A. Gibiansky
++ [[http://bit.ly/12zk29J][Apuntes de introducción a la teoría de categorías]]. ~ M. Román
++ [[http://bit.ly/1MyraTg][Categorical monads and computer programming]]. ~ N. Benton
++ [[http://bit.ly/1fk7sRF][Categorías. Los 30 primeros años]]. ~ Eduardo J. Dubuc
++ [[http://bit.ly/1Kgz4l0][Effectful Haskell: IO, monads, functors]]. ~ S. Popejoy  
++ [[http://bit.ly/NzGBUz][Example of why to use monads - what they can do]]. ~ Harold Carr
++ [[http://bit.ly/1jIc43o][Flipping arrows in coBurger King (Category theory for the working Haskell
+  programmer)]]. ~ E.Z. Yang
++ [[http://www.snoyman.com/blog/2017/01/functors-applicatives-and-monads][Functors, applicatives, and monads]]. ~ M. Snoyman
++ [[http://goo.gl/QcfqM][Functors, applicatives, and monads in pictures]]. ~ adit.io 
++ [[http://bit.ly/1IoDcy0][Grasping Haskell: functors, applicatives and monads]]. ~ X. Deseyn
++ [[http://bit.ly/1vBitB5][Haskell, monads and purity]]. ~ T. Jelvis 
++ [[http://bit.ly/1kAPcAP][Haskell/Category theory]]. ~ Wikibooks
++ [[http://bit.ly/1fWoBS5][Higher order functions, functors and monads]]. ~ A. Kaygun
++ [[https://mmhaskell.com/blog/2017/2/20/how-to-read-and-write-with-monads][How to read and write (with monads!)]] ~ James Bowen 
++ [[http://goo.gl/vldOp][Introductory monads]]. ~ Ben Kovach 
++ [[http://bit.ly/TzZx0C][Is there anything left to say about monads?]] ~ Paul Callaghan 
++ [[http://goo.gl/lgVmVZ][Monad examples]].
++ [[http://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/monad-transformers-step-by-step.pdf][Monad transformers step by step]]. ~ M. Grabmüller 
++ [[http://bit.ly/1OrXFJg][Monads for drummers (Haskell Monad tutorial with pictures)]]. ~ A. Kholomiov
++ [[http://bit.ly/1PaVK8V][Monads for functional programming]]. ~ P. Wadler  
++ [[http://bit.ly/1uAwvRt][Monads for software engineers]].
++ [[https://andyshiue.github.io/functional/programming/2017/02/06/monad.html][Monads in category theory for laymen]]. ~ AndyShiue 
++ [[http://bit.ly/1Bkz4Mf][Monads in Haskell]]. ~ N. Schilling 
++ [[http://www.stephendiehl.com/posts/monads.html][Monads made difficult]] ~ Stephen Diehl
++ [[http://bit.ly/1hfHSMk][Monads, lifting, join, and side-effecting actions]]. ~ Chris Allen
++ [[http://bit.ly/1zex05s][Monads: From Web 2.0 to hardware drivers]]. ~ Well-Typed
++ [[http://bit.ly/1KeWvwL][Monoids, functors, applicatives, and monads: 10 main ideas]]. ~ trehansiddharth 
++ [[http://bit.ly/1CqXNmV][Motivation for monads]]. ~ B. Ylvisaker 
++ [[http://bit.ly/1dc7kzt][Practical fun with monads]]. ~ Justin Le
+  + [[http://bit.ly/1dc7kzt][Introducing: MonadPlus!]]
+  + [[http://bit.ly/1dc7oiF][The list MonadPlus]].
+  + [[http://bit.ly/1dc7u9U][The list MonadPlus & logic problems]].
++ [[http://ow.ly/uSsth][Series of posts on the power of monoids]]. ~ Chung-chieh Shan
++ [[http://bit.ly/1kxUz8T][Similarities: Monoid, MonadPlus, Category]]. ~ D. Burton 
++ [[https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/the-tao-of-monad][The TAO of monad]]. ~ Bartosz Milewski
++ [[https://kseo.github.io/posts/2017-01-21-writer-monad.html][Writer monad]]. ~ Kwang Yul Seo
++ [[http://bit.ly/1kAOoMk][Why category theory matters]]. ~  R. Seaton 
++ [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter][Why do monads matter?]] ~ C. Smith
++ [[http://bit.ly/1QFVnbk][You could have invented monads! (and maybe you already have)]]. ~ Dan Piponi
+
+* Cursos
++ [[https://wiki.haskell.org/User:Michiexile/MATH198][Category theory and functional programming]]. ~ Mikael Vejdemo-Johansson
+
+* Presentaciones
++ [[https://speakerdeck.com/danielasfregola/lambda-world-2017-a-pragmatic-introduction-to-category-theory][A pragmatic introduction to category theory]]. ~ Daniela Sfregola
++ [[http://bit.ly/29nM2pl][Abstract nonsense for functional programmers (a introduction to category
+  theory)]]. ~ Edsko de Vries
++ [[https://www.dropbox.com/s/lasx6zxkoe07jyq/AdjunctionsHaskell.pdf?dl=0][Adjunctions in everyday life (Or: what we talk about when we talk about
+  monads)]]. ~ Rúnar Bjarnason
++ [[http://cs.ioc.ee/~tarmo/tsem11/jeltsch1904-slides.pdf][An introduction to category theory and categorical logic]]. ~ Wolfgang Jeltsch
++ [[http://bit.ly/1dKLLIX][An introduction to category theory for software engineers]]. ~ S. Easterbrook
++ [[http://bit.ly/12agsNI][Category theory & programming]]. ~ Yann Esposito
++ [[https://www.slideshare.net/cover_drive/category-theory-made-easy-with-ugly-pictures-73745930][Category theory made easy with (ugly) pictures]]. ~ Ashwin Rao 
++ [[http://bit.ly/1KPLghh][Functor, apply, applicative and monad]]. ~ O. Daff 
++ [[http://bit.ly/19yT1q8][Monads for normal people!]] ~ Dustin Getz
++ [[http://haskellexists.blogspot.com.es/2017/02/ten-example-uses-of-monads.html][Ten example uses of Monads]]. ~ Philipp Schuster 
++ [[https://e.xtendo.org/monad#1][The Monad Fear]]. ~ @xtendo_
++ [[http://bit.ly/29V5Ax4][Three approaches to monads]]. ~ Lawrence Evans 
++ [[http://go-talks.appspot.com/github.com/kseo/haskell-talks/2016/monad.slide#1][What is monad?]] ~ Kwang Yul Seo 
++ [[http://bit.ly/2fOFmQ2][Why category theory matters: a functional programmer’s perspective]]. ~
+  J.N. Oliveira 
+
+* Vídeos
++ [[http://bit.ly/1vWaUXN][Categories for the working Haskeller]]. ~ J. Gibbons
++ [[https://www.youtube.com/watch?v=V10hzjgoklA][Category theory for the working hacker]] ~ Philip Wadler
++ [[https://youtu.be/JMP6gI5mLHc][Category theory, the essence of interface-based design]]. ~ E. Meijer
+
+* Programas
++ [[http://bit.ly/1OdGZWZ][Category theory in Coq 8.5]]. ~ A. Timany, B. Jacobs  
++ [[https://github.com/jpvillaisaza/abel][Category theory applied to functional programming]]. ~ J.P. Villa
++ [[https://github.com/rpeszek/notes-milewski-ctfp-hs][Notes and thoughts from reading Milewski "Category theory for programmers"
+  written in Haskell]]. ~ Robert Peszek #Haskell 
++ [[https://www.isa-afp.org/entries/MonoidalCategory.shtml][Monoidal categories in Isabelle/HOL]]. ~ E.W. Stark 
+
+* Referencias
++ [[http://www.logicmatters.net/categories/][Category theory]] ~ Peter Smith
++ [[http://bit.ly/AmAOPZ][Monad tutorials timeline]].  
