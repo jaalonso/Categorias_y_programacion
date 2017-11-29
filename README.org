@@ -65,6 +65,8 @@ algunos de introducción a la teoría de categorías.
   + [[http://bit.ly/1dc7u9U][The list MonadPlus & logic problems]].
 + [[http://ow.ly/uSsth][Series of posts on the power of monoids]]. ~ Chung-chieh Shan
 + [[http://bit.ly/1kxUz8T][Similarities: Monoid, MonadPlus, Category]]. ~ D. Burton 
++ [[https://elbauldelprogramador.com/teoria-categorias-scala-composicion/][Teoría de categorías en Scala: Composición]]. ~ A. Alcalde
++ [[https://elbauldelprogramador.com/teoria-categorias-scala-tipos-funciones][Teoría de categorías en Scala: Tipos y funciones]]. ~ A. Alcalde
 + [[https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/the-tao-of-monad][The TAO of monad]]. ~ Bartosz Milewski
 + [[https://kseo.github.io/posts/2017-01-21-writer-monad.html][Writer monad]]. ~ Kwang Yul Seo
 + [[http://bit.ly/1kAOoMk][Why category theory matters]]. ~  R. Seaton 
