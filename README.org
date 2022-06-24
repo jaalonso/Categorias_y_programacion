@@ -1,7 +1,7 @@
 #+TITLE: Lecturas sobre teoría de categorías y programación funcional
 #+OPTIONS:   toc:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./estilo.css" />
-
+ 
 Recopilación de lecturas compartidas sobre teoría de categorías y programación
 funcional. Además de los trabajos que relacionan ambos campos he añadido
 algunos de introducción a la teoría de categorías.
